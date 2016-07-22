@@ -4,9 +4,10 @@ echo "Installing necessary JARs to run tests for Kafka Streams app..."
 
 project_dir=`pwd`
 tmp_dir="${project_dir}/tmp"
-mkdir -p $tmp_dir
 
 if [ ! -d "tmp" ]; then
+
+mkdir -p $tmp_dir
 
 cd ${tmp_dir}
 git clone git@github.com:confluentinc/schema-registry.git
