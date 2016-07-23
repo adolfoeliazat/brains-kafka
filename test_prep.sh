@@ -21,6 +21,6 @@ git clone git@github.com:jeff-svds/examples.git
 cd examples
 git checkout testjar
 cd kafka-streams
-mvn install -Dmaven.test.skip=true
+mvn install
 
 fi
