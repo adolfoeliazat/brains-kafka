@@ -16,6 +16,9 @@ fi
 cd docker
 eval $(docker-machine env)
 export DOCKER_MACHINE_IP=`docker-machine ip`
+if [ -z "$DOCKER_MACHINE_IP" ]; then
+    export DOCKER_MACHINE_IP="localhost"
+fi
 docker-compose up -d
 
 echo "Creating Topics (wait 45 seconds)..."
