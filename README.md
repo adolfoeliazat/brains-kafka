@@ -2,7 +2,10 @@ Brains Kafka
 ============
 Kafka Streams demo application that performs real-time processing of brain EEG data from an [Emotiv](http://emotiv.com) headset -- converting them into [OpenTSDB](http://opentsdb.org) time series records visualized with [Grafana](http://grafana.org) .
 
-Detailed instructions found in the [Silicon Valley Data Science blog](http://www.svds.com/brain-monitoring-kafka-opentsdb-grafana/):
+Detailed instructions found in the [Silicon Valley Data Science blog](http://www.svds.com/brain-monitoring-kafka-opentsdb-grafana/)
+
+Tested with:
+* Docker 1.11
 
 ### 1. Build & Run the Demo ###
     ./build_and_run_demo.sh
