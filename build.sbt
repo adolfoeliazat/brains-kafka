@@ -7,7 +7,7 @@ scalaVersion := "2.11.8"
 lazy val versions = Map(
   "kafka" -> "0.10.0.0",
   "confluent" -> "3.0.0",
-  "scalaTest" -> "3.0.0-RC3"
+  "scalaTest" -> "3.0.0"
 )
 
 libraryDependencies ++= Seq(
